@@ -1,6 +1,6 @@
-import org.egov.jenkins.ConfigParser
-import org.egov.jenkins.Utils
-import org.egov.jenkins.models.JobConfig
+import src.org.egov.jenkins.ConfigParser
+import src.org.egov.jenkins.Utils
+import src.org.egov.jenkins.models.JobConfig
 
 def call(Map params) {
     node {
